@@ -1,0 +1,4 @@
+dist.zip
+build
+*creds.py*
+*.DS_Store

@@ -1,0 +1,4 @@
+from quay.io/pypa/manylinux1_x86_64
+
+COPY requirements.txt /app/requirements.txt
+RUN /opt/python/cp27-cp27mu/bin/pip install -r /app/requirements.txt
